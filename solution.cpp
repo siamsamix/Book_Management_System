@@ -36,9 +36,9 @@ void save(vector<struct book> &books, string what){
     }
     if(what == "borrower"){
         ofstream file("borrower_database.data");
-        for(){
+        /*for(){
 
-        }
+        }*/
     }
 }
 
@@ -115,7 +115,7 @@ int main(){
     vector<struct book> books;
     vector<struct borrower> borrowers;
     while(true){
-        read(books);
+        read(books, "book");
         cout << "\n--------------------Computerized Seminar Room Book Management System--------------------\n\n";
         cout << "1) Add a book\n";
         cout << "2) Display all books\n";
